@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>TodoList</title>
+    <meta charset="UTF-8" />
+  </head>
+
+  <body>
+    <div id="app">
+      <main>
+        <h1 class="title">TODOLIST</h1>
+        <section class="todo">
+          <div class="todo__block-btns">
+            <button class="btn todo__select-btn-even">Выделить четные</button>
+            <button class="btn todo__select-btn-odd">Выделить нечетные</button>
+            <button class="btn todo__delete-btn-first">удалить первую</button>
+            <button class="btn todo__delete-btn-last">удалить последнюю</button>
+          </div>
+          <div class="todo__block-add">
+            <input class="todo__input" type="text" />
+            <button type="button" class="todo__add-btn">Добавить</button>
+          </div>
+          <ul class="todo__list"></ul>
+        </section>
+      </main>
+    </div>
+
+    <script src="./index.mjs" type="module"></script>
+  </body>
+</html>
